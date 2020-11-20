@@ -171,13 +171,10 @@ blockquote.secondary {
   }
   .card5 {
     -ms-grid-row: 1;
-    -ms-grid-row-span: 3;
+    -ms-grid-row-span: 2;
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
-    grid-area: 1/4/4/5;
-  }
-  .card5 blockquote.secondary {
-    padding-bottom: 10px;
+    grid-area: 1/4/3/5;
   }
 }
 /*# sourceMappingURL=style.css.map */

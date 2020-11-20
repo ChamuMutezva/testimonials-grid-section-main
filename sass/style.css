@@ -153,6 +153,7 @@ blockquote.secondary {
 
 @media screen and (min-width: 1220px) {
   main {
+    margin-top: 164px;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -174,6 +175,9 @@ blockquote.secondary {
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-area: 1/4/4/5;
+  }
+  .card5 blockquote.secondary {
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
